@@ -8,12 +8,7 @@ This project implements a multi-process architecture that reads from multiple en
 
 ## System Architecture
 
-The system consists of four main processes that communicate via QNX message passing:
-
-- **central_analyzer**: Main process that spawns threads for each sensor, aggregates readings, and coordinates with other processes
-- **stats_update**: Receives sensor data and updates a JSON file consumed by the web dashboard
-- **event_logger**: Records events and alerts to a log file with timestamps
-- **alert_mgr**: Handles alert notifications via pulse messages
+![System Block Diagram](assets/block_diagram.png)
 
 ## Sensors
 
