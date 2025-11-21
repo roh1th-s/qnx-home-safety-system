@@ -1,0 +1,25 @@
+{
+  "sensors": {
+    "door": {
+      "status": "open"
+      
+    },
+    "temperature": {
+      "value": 24.5
+    },
+    "humidity": {
+      "value": 55
+    },
+    "smoke": {
+      "status": "clear",
+      "alert": true
+    },
+    "motion": {
+      "status": "detected"
+    },
+    "co2": {
+      "value": 500
+    }
+  }
+}
+
